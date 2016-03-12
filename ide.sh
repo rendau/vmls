@@ -1,0 +1,34 @@
+#!/bin/bash
+
+files="\
+ ide.sh\
+ .gitignore\
+ conf.cfg\
+ README\
+ init.conf\
+ install\
+ Makefile\
+ conf.c\
+ conf.h\
+ main.c\
+ db.h\
+ db.c\
+ rtpp.h\
+ rtpp.c\
+ h264.h\
+ h264.c\
+ mtsp.h\
+ mtsp.c\
+ cam.h\
+ cam.c\
+ st.h\
+ st.c\
+ http.h\
+ http.c\
+ https.h\
+ https.c\
+ ws.h\
+ ws.c\
+ wsl.c\
+"
+emacs -mm -bg "LemonChiffon2" $files -f delete-window &

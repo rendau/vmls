@@ -1,0 +1,19 @@
+{
+    "name": "vmls",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "backbone": "~1.2.3",
+        "jquery": "~2.1.4",
+        "CryptoJS": "*",
+        "requirejs": "~2.1.20",
+        "text": "requirejs/text#~2.0.14",
+        "domready": "requirejs/domready#~2.0.1",
+	"tulip": "git@github.com:rendau/tulip.git#>=1.1.0"
+    }
+}

@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: hidden;
+    font: 18px Arial, sans-serif;
+    color: #222;
+    background: #fff;
+}
+body {
+    overflow: auto;
+}
+
+
+
+.app {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+.app_hd {
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    vertical-align: meddle;
+    padding: 0 .5rem;
+}
+.app_hd > .title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #888;
+    color: #8A8DA5;
+}
+.app_scWrap {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.app_sc {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.app_sc > .menu {
+    display: block;
+    width: 240px;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0 0;
+    border-radius: 0 4px 0 0;
+    background: #fff;
+}
+.app_sc > .body {
+    flex: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.auth {
+    padding: .5rem;
+}
+
+.cams {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.cams_list {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-width: 1px 0 0 1px;
+    border-radius: 4px 0 0 0;
+    background: #fff;
+}
+.cams_list > .tbar {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: .7rem .4rem .3rem;
+    border-bottom: 1px solid #ccc;
+    background: #6991C3;
+    background: #fff;
+}
+.cams_list > .bodyWrap {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.cams_list > .bodyWrap > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cams_wst_t, .cams_wst_f {
+    min-width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.cams_wst_t:before, .cams_wst_f:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FF4343;
+}
+.cams_wst_t:before {
+    background: #3EF33E;
+}
+.cams_form {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-width: 1px 0 0 1px;
+    border-radius: 4px 0 0 0;
+    background: #fff;
+}
+.cams_form > table {
+    display: inline-block;
+    font-size: 1rem;
+}
+.cams_form td {
+    padding: .7rem;
+}
+.cams_form td.vaTop {
+    vertical-align: top;
+}
+.cams_form td.hdr {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #ababab;
+}
+.cams_form td.act {
+    padding-top: 1rem;
+    text-align: center;
+}
+.st {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-width: 1px 0 0 1px;
+    border-radius: 4px 0 0 0;
+    background: #fff;
+}

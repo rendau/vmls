@@ -1,0 +1,15 @@
+*.o
+*.la
+*.lo
+*.so
+*.log
+*.tar
+*.h264
+*.mp4
+*.flv
+*.f4v
+*.webm
+*~
+db
+admpsw
+vmls

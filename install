@@ -1,0 +1,15 @@
+#!/bin/bash
+
+curDir=`pwd`
+
+jobSrcFile="init.conf"
+jobDesFile="/etc/init/vmls.conf"
+
+[[ ! -f $jobDesFile ]] || rm -f $jobDesFile
+
+if [ "$1" != "clear" ]; then
+    cp $jobSrcFile $jobDesFile
+    sed -i "s|WDPATH|$curDir|g" $jobDesFile
+fi
+
+exit 0
